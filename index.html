@@ -1,0 +1,41 @@
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Калькулятор</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Калькулятор систем счисления</h1>
+</header>
+<div class="first">
+  <h1>Введите число, которое хотите перевести</h1>
+  <center>
+    <input type="text" id="num" placeholder = "Ваше число..." title="Число, которое вы хотите перевести">
+  </center>
+</div>
+<div class="second">
+  <h1>Система счисления Вашего числа</h1>
+</div>
+<div class="dr1">
+  <center>
+    <input id="numberSystem" type="number" name="" placeholder="Система счисления" title="Система счисления Вашего числа">
+  </center>
+</div>
+<div class="tri">
+  <h1>Перевести в...</h1>
+</div>
+<div class="dr1">
+  <center>
+    <input type="number" name="secondSys" placeholder="Систему счисления" title="Перевести в Вашу систему счисления" id="numberSystem2">
+  </center>
+</div>
+<div class="perevesti">
+  <center>
+    <button id="result" onclick="resultNumber()">Перевести</button>
+  </center>
+  <script src="main.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</div>
